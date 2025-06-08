@@ -1,0 +1,56 @@
+        body {
+  margin: 0;
+  padding: 0;
+}
+
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1rem;
+          background-color: #08615c;
+         height: 60px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            
+            font-weight: bold;
+         text-decoration: none;
+          color: white;
+          font-weight: bold;
+        }
+        
+
+        .links {
+          display: flex;
+          gap: 2rem;
+          
+        }
+
+        .links a {
+          color: rgba(255, 255, 255, 0.685);
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 17px;
+          font-style: default;
+        }
+
+        .links a:hover {
+          color: #ffffff;
+          
+        }
+        .get-started {
+          font-weight: bold;
+            color: white;
+            background-color: #089b8f;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            border: none;
+        }
+
+        .get-started:hover {
+          
+            background-color: #097269;
+        }
