@@ -13,10 +13,39 @@ function Header() {
             <p className='header-description2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br /> elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus <br /> leo.</p>
             <p className='header-description3'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br /> accusantium doloremque laudantium, totam rem aperiam, eaque ipsa <br /> quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt <br /> explicabo.</p>
         </div>
-        <div className="header-icons">
+        <div className="header-icons1">
 
-            <i className='iconStyle' class="fa-solid fa-chart-simple iconStyle"></i>
+            <a href="" className='iconStyle'>
+              <i className="fa-solid fa-chart-simple"></i>
+            </a>
+            <h3>Business Growth</h3>
+            <p>Nemo enim ipsam voluptatem quia <br /> voluptas sit aspernatur aut odit aut fugit.</p>
         </div>
+        <div className="header-icons2">
+
+            <a href="" className='iconStyle'>
+              <i class="fa-regular fa-lightbulb"></i>
+            </a>
+            <h3>Innovative Solutions</h3>
+            <p>Nemo enim ipsam voluptatem quia <br /> voluptas sit aspernatur aut odit aut fugit.</p>
+        </div>
+        <div className="header-icons3">
+
+            <a href="" className='iconStyle'>
+              <i class="fa-solid fa-user-group"></i>
+            </a>
+            <h3>Expert Team</h3>
+            <p>Nemo enim ipsam voluptatem quia <br /> voluptas sit aspernatur aut odit aut fugit.</p>
+        </div>
+        <div className="header-icons4">
+
+            <a href="" className='iconStyle'>
+              <i class="fa-solid fa-trophy"></i>
+            </a>
+            <h3>Proven Results</h3>
+            <p>Nemo enim ipsam voluptatem quia <br /> voluptas sit aspernatur aut odit aut fugit.</p>
+        </div>
+        <button className='cccc'><a href="#" className='learn-More'>learn More About Us</a></button>
     </header>
   );
 }

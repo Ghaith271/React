@@ -208,7 +208,64 @@ img:hover {
  color: #8d8d8d;
 }
 
-.iconStyle {
-  color: red;
-  font-size: 24px;
+
+.header-icons1{
+font-family: Arial, Helvetica, sans-serif;
+  
+  margin-left: 900px;
+  
+}
+.iconStyle  {
+  text-decoration: none;
+  color: #08615c;
+  font-size: 45px;
+
+}
+
+.header-icons2{
+font-family: Arial, Helvetica, sans-serif;
+  margin-top: -165px;
+  margin-left: 1300px;
+}
+
+.header-icons3{
+font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+  margin-left: 900px;
+}
+
+.header-icons4{
+font-family: Arial, Helvetica, sans-serif;
+  margin-top: -165px;
+  margin-left: 1300px;
+}
+
+.cccc{
+  background-color: #08615c;
+  border-radius: 15px;
+  margin-left: 900px;
+  margin-top: 50px;
+}
+
+.learn-More{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none; 
+}
+
+
+.cccc:hover {
+  background-color: #097269;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  
 }
