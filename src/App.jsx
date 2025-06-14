@@ -5,6 +5,7 @@ import Article from "./article";
 import Consultation from "./Consultation";
 import Choose from "./Choose";
 import TeamCarousel from "./TeamCarousel"
+import Testimonials from "./Testimonials"
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Consultation />
       <Choose/>
       <TeamCarousel />
+      <Testimonials />
     </>
   );
 }
