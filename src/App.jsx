@@ -4,8 +4,13 @@ import Section from "./section";
 import Article from "./article";
 import Consultation from "./Consultation";
 import Choose from "./Choose";
-import TeamCarousel from "./TeamCarousel"
-import Testimonials from "./Testimonials"
+import TeamCarousel from "./TeamCarousel";
+import Testimonials from "./Testimonials";
+import Pricing from "./Pricing";
+import FAQ from "./Frequently";
+import ContactUs from "./ContactUs";
+import Footer from "./footer";
+
 function App() {
   return (
     <>
@@ -14,9 +19,13 @@ function App() {
       <Section />
       <Article />
       <Consultation />
-      <Choose/>
+      <Choose />
       <TeamCarousel />
       <Testimonials />
+      <Pricing />
+      <FAQ />
+      <ContactUs />
+      <Footer />
     </>
   );
 }
